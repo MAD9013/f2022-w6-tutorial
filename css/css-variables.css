@@ -1,0 +1,36 @@
+/* ---------- CSS Variables Basics ---------- */
+
+
+/* ---------- Color Theming ---------- */
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card {
+  border: .125rem solid #00673e;
+  border-radius: .5rem;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  flex: 1 1 15rem;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__content {
+  padding: 1.5rem;
+}
+
+.card__title {
+  color: #00673e;
+}
+
+.card__content .btn {
+  background-color: #00673e;
+  border-color: #00673e;
+}

@@ -1,0 +1,32 @@
+.position-wrapper {
+  border: .25rem dashed #ccc;
+  margin-bottom: 2rem;
+}
+
+.position-wrapper .box,
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00673e;
+  border: .2rem solid #00673e;
+  padding: 2rem;
+  background-color: #befee4;
+  text-transform: uppercase;
+  border-radius: .5rem;
+}
+
+/* ---------- Centering ---------- */
+
+.centering {
+  min-height: 30rem;
+  position: relative;
+}
+
+
+.centering .box {
+  display: inline-flex;
+}

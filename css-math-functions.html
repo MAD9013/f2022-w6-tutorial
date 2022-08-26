@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Math Functions | W6 - CSS Variables & More</title>
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/css-math-functions.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="masthead no-print" role="banner">
+      <div class="container">
+        <a href="/" class="logo">
+          <strong>W6 - CSS Variables & More</strong>
+        </a>
+        <nav id="nav" role="navigation">
+          <ul>
+            <li><a href="./css-variables.html">CSS Variables</a></li>
+            <li><a href="./position.html">Position</a></li>
+            <li><a aria-current="page" href="./css-math-functions.html">CSS Math Functions</a></li>
+          </ul>
+        </nav>
+        <a class="nav-toggle" href="#nav" aria-label="Click to open mobile nav">
+          <span class="tog top"></span>
+          <span class="tog middle"></span>
+          <span class="tog bottom"></span>
+        </a>
+      </div>
+    </header>
+
+    <main id="main" role="main">
+      <section>
+        <div class="container container-side-padding">
+          <h1>CSS Math Functions</h1>
+          
+          <!-- ---------- TUTORIAL CONTENT ---------- -->
+
+          <h2>calc()</h2>
+
+          <p><code>calc()</code> allows us to do basic calculations in our CSS values.</p>
+
+          <div class="calc-wrap">
+            <div class="box">Inner Box</div>
+          </div>
+
+          <h3>Spacing Utility Classes</h3>
+
+          <div class="text-example-1 gutter-3 pad-t-4 pad-b-4 push">
+            <h4>Heading 1</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia similique autem minus ipsa, ut corrupti quam nesciunt est eum labore voluptatibus saepe, et soluta sapiente vero, maxime reiciendis sit voluptas!</p>
+            <p>Corrupti deserunt laboriosam impedit a veritatis blanditiis cupiditate aliquam. Provident magnam, non nam vel tempora, blanditiis nisi ipsam aut esse reprehenderit doloremque numquam laudantium. Iure odit nobis aut molestiae blanditiis!</p>
+          </div>
+          <div class="text-example-2 gutter pad-t-2 pad-b-2 push-4">
+            <h4>Heading 2</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque provident id rem, architecto consequuntur animi perspiciatis consequatur velit labore, aperiam culpa dolor voluptate illum? Facilis laborum iste tempore. Saepe, quos?</p>
+            <p>Nobis quas et fugiat saepe sunt asperiores aliquam error odio vel, rerum, itaque voluptas explicabo dolore nostrum soluta, praesentium impedit. Accusamus ullam optio quae iste deleniti repellendus, quaerat vero atque!</p>
+          </div>
+
+          <h2>clamp()</h2>
+
+          <div class="dynamic-type">
+            <h3>Dynamic Type</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae error amet accusantium maxime voluptatem necessitatibus sunt quisquam rerum. Doloremque repellendus soluta libero corporis tempore quaerat voluptates odit necessitatibus natus quia.</p>
+          </div>
+
+          <h2>min()</h2>
+          <p><code>min()</code> examines the two values provided and then uses whichever value is smaller. It is great times when you want the sizing of and element to be responsive and adapt to your screen size changes, but want to limit the sizing. We've used to already for our <code>.container</code> utility class.</p>
+
+          <p>Another quick example:</p>
+
+          <div class="box min">min()</div>
+          
+          <h2>max()</h2>
+          <p><code>max()</code> is the same as <code>min()</code>, but picks the larger value instead.</p>
+
+          <div class="box max">max()</div>
+
+          <!-- ---------- END TUTORIAL CONTENT ---------- -->
+          
+        </div>
+      </section>
+    </main>
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <p>
+          <a
+            href="https://mad9013.github.io/F2022/modules/week6/"
+            target="_blank"
+            >Week 6 Content</a
+          >
+        </p>
+        <small
+          >Created for
+          <a href="https://mad9013.github.io/F2022/">MAD9013 course</a> and free
+          for any use.</small
+        >
+      </div>
+    </footer>
+    <div class="click-to-close"></div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

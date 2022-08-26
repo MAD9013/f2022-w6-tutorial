@@ -1,0 +1,58 @@
+:root {
+  --spacer-base: 1.5rem;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00673e;
+  border: .2rem solid #00673e;
+  padding: 2rem;
+  background-color: #befee4;
+  text-transform: uppercase;
+  border-radius: .5rem;
+}
+
+/* ---------- calc() ---------- */
+
+.calc-wrap {
+  border: .25rem dashed #ccc;
+  margin-bottom: 2rem;
+  min-height: 25rem;
+}
+
+.calc-wrap .box {
+  
+}
+
+/* ---------- Spacer Utility Classes ---------- */
+
+.text-example-1 {
+  background-color: #befee4;
+}
+.text-example-2 {
+  background-color: #febee4;
+}
+
+/* ---------- clamp() ---------- */
+
+.dynamic-type h3 {
+  
+}
+
+.dynamic-type p {
+  
+}
+
+/* ---------- min() ---------- */
+
+.box.min {
+  
+}
+
+/* ---------- max() ---------- */
+
+.box.max {
+  
+}

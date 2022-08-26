@@ -1,0 +1,68 @@
+/* ---------- CSS Variables Basics ---------- */
+
+:root {
+  --color-primary: #00673e;
+  --color-primary-dark: #00331f;
+  --color-primary-light: #befee4;
+  --color-secondary: #67003e;
+  --color-secondary-light: #febee4;
+  --color-tertiary: #673e00;
+  --color-tertiary-light: #fee4be;
+
+  --font-primary: Montserrat, sans-serif;
+  --font-secondary: Roboto, sans-serif;
+
+  --shadow: 0 .25rem .5rem #0002;
+  --shadow-large: 0 .5rem 1rem #0002;
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-scheme-alt {
+  --color-primary: #2c8Bd9;
+}
+
+.color-scheme-dark {
+  --color-primary: #163854;
+}
+
+/* ---------- Color Theming ---------- */
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card {
+  --color-card: var(--color-primary);
+  border: .125rem solid var(--color-card);
+  border-radius: .5rem;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  flex: 1 1 15rem;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__content {
+  padding: 1.5rem;
+}
+
+.card__title {
+  color: var(--color-card);
+}
+
+.card__content .btn {
+  background-color: var(--color-card);
+  border-color: var(--color-card);
+}
+
+.card--secondary {
+  --color-card: var(--color-secondary);
+}
